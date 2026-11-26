@@ -35,3 +35,13 @@ npm run dev
 npm run build
 npm run preview
 ```
+
+## Deploy on Render
+
+This repository includes a [render.yaml](render.yaml) Blueprint for **Render Static Site** hosting:
+
+- **One-click Blueprint Deploy:** https://render.com/deploy?repo=https://github.com/surjithraj7/cad-automotive-portfolio
+- **Manual Render Static Site settings:**
+  - **Build Command:** `npm ci && npm run build`
+  - **Publish Directory:** `dist`
+
